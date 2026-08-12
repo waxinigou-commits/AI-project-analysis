@@ -2,6 +2,8 @@
 
 每日追踪 Product Hunt 与 WhatLaunched 新发布 AI 产品，并使用 GitHub Models 生成定位、目标用户、商业模式、竞品、收费模式与增长机会分析。
 
+仓库同时提供可安装的 **AI 新产品增长雷达 Codex Agent**。它只使用 Codex，不需要 `OPENAI_API_KEY`：负责发现与核验新品、生成商业分析，并制作小红书、知乎、V2EX、X、LinkedIn、公众号等平台的待审核推广内容。
+
 ## 功能
 
 - 产品雷达：分类、时间与关键词检索
@@ -22,6 +24,25 @@ npm run dev
 
 ```bash
 npm test
+```
+
+## 安装 Codex Agent
+
+将 [`skills/ai-product-growth-agent`](skills/ai-product-growth-agent) 文件夹复制到个人 Codex skills 目录，或者让 Codex 从本仓库安装该 Skill。安装后可这样使用：
+
+```text
+使用 $ai-product-growth-agent 收集过去 24 小时的新 AI 产品，核验前 10 名，
+并为最值得关注的 3 个产品生成多平台推广草稿；不要自动发布。
+```
+
+Agent 默认工作流为“采集 → 核验 → 分析 → 生成草稿 → 人工确认 → 发布”。采集与生成草稿可以定时运行；向外部平台发帖必须使用用户已授权的账号，并在发布前获得明确确认。
+
+无需大模型即可单独运行公开 Feed 收集器：
+
+```bash
+python3 skills/ai-product-growth-agent/scripts/collect_sources.py \
+  --hours 48 \
+  --output outputs/product-candidates.json
 ```
 
 ## 自动化设置

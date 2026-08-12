@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 新产品增长雷达"
+  short_description: "每日收集核验 AI 新产品并生成多平台推广草稿"
+  default_prompt: "使用 $ai-product-growth-agent 收集今天的新 AI 产品，核验信息并生成待审核的推广内容。"
