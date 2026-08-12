@@ -8,6 +8,8 @@ on:
 permissions:
   contents: write
   models: read
+  pages: write
+  id-token: write
 
 jobs:
   update:
@@ -26,3 +28,14 @@ jobs:
           git add public/data/products.json data/products.db
           git diff --cached --quiet || git commit -m "data: refresh AI product intelligence"
           git push
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Build refreshed site
+        run: npm install && npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy refreshed site
+        uses: actions/deploy-pages@v4
