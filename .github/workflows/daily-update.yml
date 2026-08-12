@@ -21,6 +21,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_MODEL: openai/gpt-4.1-mini
         run: python3 scripts/collect.py
+      - name: Validate published data
+        run: python3 scripts/validate_data.py
       - name: Persist new intelligence
         run: |
           git config user.name "github-actions[bot]"

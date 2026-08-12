@@ -1,392 +1,422 @@
 [
   {
-    "id": "geoscanai",
-    "name": "GEOscanAI",
-    "tagline": "追踪 ChatGPT 与 Gemini 是否推荐你的品牌",
+    "id": "contextgpt",
+    "name": "ContextGPT",
+    "tagline": "An AI customer service agent trained on your business data",
     "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-29",
+    "sourceUrl": "https://whatlaunched.today/en/launch/contextgpt",
+    "website": "https://contextgpt.co/",
+    "launchedAt": "2026-08-11",
+    "category": "AI Agent",
+    "score": 82,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：B2B SaaS",
+    "targetUsers": [
+      "中小企业",
+      "客服团队",
+      "电商运营"
+    ],
+    "positioning": "将企业自有资料转化为面向客户的 AI 服务代理。",
+    "businessModel": "推测适合按席位、对话量或知识库规模订阅收费；原始发布资料未披露具体方案。",
+    "competitors": [
+      "Intercom Fin",
+      "Zendesk AI",
+      "Chatbase"
+    ],
+    "opportunities": [
+      "聚焦单一行业沉淀高质量客服模板",
+      "集成主流工单与电商平台",
+      "用解决率和转人工率证明 ROI"
+    ],
+    "risks": [
+      "通用客服 AI 竞争激烈",
+      "企业数据安全与回答准确度要求高"
+    ],
+    "signals": [
+      "客服 Agent",
+      "企业数据连接"
+    ],
+    "confidence": 72,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "基于官方发布页的产品名称、标语与发布时间进行推断；价格未核验"
+  },
+  {
+    "id": "epochal",
+    "name": "Epochal",
+    "tagline": "AI Video Generator for Text to Video & Image to Video",
+    "source": "WhatLaunched",
+    "sourceUrl": "https://whatlaunched.today/en/launch/epochal",
+    "website": "https://epochal.app/",
+    "launchedAt": "2026-08-11",
+    "category": "内容创作",
+    "score": 78,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：用量型 SaaS",
+    "targetUsers": [
+      "内容创作者",
+      "营销团队",
+      "小型工作室"
+    ],
+    "positioning": "在一个工作区内提供文生视频、图生视频与 AI 图片生成。",
+    "businessModel": "推测适合用生成额度或算力点数收费；原始发布资料未披露价格。",
+    "competitors": [
+      "Runway",
+      "Kling AI",
+      "Pika"
+    ],
+    "opportunities": [
+      "围绕广告与社媒形成场景模板",
+      "提供品牌素材与风格一致性能力",
+      "用批量生成服务团队客户"
+    ],
+    "risks": [
+      "上游视频模型能力快速商品化",
+      "生成成本可能压缩毛利"
+    ],
+    "signals": [
+      "多模态视频",
+      "一体化工作区"
+    ],
+    "confidence": 70,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "产品事实来自发布页；商业判断为模型推断"
+  },
+  {
+    "id": "qwen3-tts-voice-studio",
+    "name": "Qwen3 TTS Voice Studio",
+    "tagline": "Controllable multilingual text-to-speech workspace",
+    "source": "WhatLaunched",
+    "sourceUrl": "https://whatlaunched.today/en/launch/qwen3-tts-voice-studio",
+    "website": "https://www.qwen3tts.net/",
+    "launchedAt": "2026-08-11",
+    "category": "音频 AI",
+    "score": 75,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：Freemium / 用量计费",
+    "targetUsers": [
+      "视频创作者",
+      "播客团队",
+      "本地化团队"
+    ],
+    "positioning": "基于 Qwen3 TTS 的可控多语言语音生成工作区。",
+    "businessModel": "推测以免费试用获客，并按字符、音频时长或高质量模型额度收费。",
+    "competitors": [
+      "ElevenLabs",
+      "Cartesia",
+      "Fish Audio"
+    ],
+    "opportunities": [
+      "强化多语言本地化工作流",
+      "提供 API 和批量合成",
+      "围绕角色声音建立预设市场"
+    ],
+    "risks": [
+      "依赖基础模型差异化有限",
+      "声音版权与滥用风险"
+    ],
+    "signals": [
+      "多语言 TTS",
+      "创作者需求"
+    ],
+    "confidence": 68,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "名称、标语、日期和官网已核验；定价与市场判断未获官方确认"
+  },
+  {
+    "id": "skipcalls",
+    "name": "SkipCalls",
+    "tagline": "AI phone receptionist for small businesses",
+    "source": "WhatLaunched",
+    "sourceUrl": "https://whatlaunched.today/en/launch/skipcalls",
+    "website": "https://skipcalls.com/",
+    "launchedAt": "2026-08-11",
+    "category": "AI Agent",
+    "score": 84,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：垂直 SaaS",
+    "targetUsers": [
+      "本地商户",
+      "服务业 SMB",
+      "前台团队"
+    ],
+    "positioning": "帮助小企业接听和处理来电的 AI 电话前台。",
+    "businessModel": "推测以号码、通话分钟数与功能套餐订阅收费。",
+    "competitors": [
+      "Goodcall",
+      "Synthflow",
+      "Bland AI"
+    ],
+    "opportunities": [
+      "聚焦预约密集型行业",
+      "接入 CRM 与日历形成闭环",
+      "提供多语言与下班时段接听"
+    ],
+    "risks": [
+      "电话体验直接影响品牌信任",
+      "各地区通话与录音合规不同"
+    ],
+    "signals": [
+      "语音 Agent",
+      "SMB 刚需"
+    ],
+    "confidence": 76,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "事实字段可追溯至发布页；商业模式为分析"
+  },
+  {
+    "id": "autobacklinks",
+    "name": "AutoBacklinks",
+    "tagline": "The First AI Agent for Link Building Outreach",
+    "source": "WhatLaunched",
+    "sourceUrl": "https://whatlaunched.today/en/launch/autobacklinks",
+    "website": "https://www.autobacklinks.ai/",
+    "launchedAt": "2026-08-11",
     "category": "AI 营销",
-    "score": 86,
-    "pricing": "订阅制 · 分层套餐",
-    "pricingModel": "B2B SaaS",
+    "score": 80,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：B2B SaaS",
+    "targetUsers": [
+      "SEO 团队",
+      "营销机构",
+      "独立站运营"
+    ],
+    "positioning": "自动执行外链建设触达流程的垂直 AI Agent。",
+    "businessModel": "推测按项目、联系人额度或外联规模订阅收费。",
+    "competitors": [
+      "Pitchbox",
+      "Respona",
+      "BuzzStream"
+    ],
+    "opportunities": [
+      "从发现延伸到跟进和结果追踪",
+      "提供机构多客户工作台",
+      "把个性化质量做成差异化"
+    ],
+    "risks": [
+      "自动外联可能产生垃圾邮件",
+      "平台和邮箱服务商政策风险"
+    ],
+    "signals": [
+      "垂直 Agent",
+      "可量化获客"
+    ],
+    "confidence": 73,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "发布事实已核验；商业评分与机会为分析"
+  },
+  {
+    "id": "pilotcite",
+    "name": "PilotCite",
+    "tagline": "Get cited by ChatGPT and AI search",
+    "source": "WhatLaunched",
+    "sourceUrl": "https://whatlaunched.today/en/launch/pilotcite",
+    "website": "https://pilotcite.com/",
+    "launchedAt": "2026-08-11",
+    "category": "AI 营销",
+    "score": 83,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：B2B SaaS",
     "targetUsers": [
       "品牌团队",
-      "SEO 机构",
+      "SEO 顾问",
       "内容营销"
     ],
-    "positioning": "面向品牌的生成式搜索可见度监控工具，把 AI 回答中的品牌提及转化为可追踪指标。",
-    "businessModel": "以追踪关键词量、品牌数量和报告频率分层收费，并通过代理商套餐扩张客单价。",
+    "positioning": "帮助品牌提升在 ChatGPT 与 AI 搜索中的被引用机会。",
+    "businessModel": "推测通过品牌监控、内容建议或项目订阅收费。",
     "competitors": [
       "Profound",
       "Peec AI",
       "Otterly.AI"
     ],
     "opportunities": [
-      "提供面向机构的白标报告与多客户工作台",
-      "从监测延伸到内容修复建议，形成执行闭环",
-      "与传统 SEO 工具和 BI 平台打通数据"
+      "提供可验证的引用追踪",
+      "以免费审计驱动获客",
+      "推出代理商白标报告"
     ],
     "risks": [
-      "模型回答波动可能影响指标稳定性",
-      "头部 SEO 套件可能快速补齐相同能力"
+      "AI 答案波动导致归因困难",
+      "GEO 工具同质化速度快"
     ],
     "signals": [
-      "GEO 预算上升",
-      "代理商渠道"
+      "GEO 增长",
+      "品牌监测"
     ],
-    "confidence": 84
+    "confidence": 75,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "名称、标语、日期与网址来自原始目录；价格未披露"
   },
   {
-    "id": "reachllm",
-    "name": "ReachLLM",
-    "tagline": "让品牌在 AI 搜索与答案引擎中更容易被发现",
+    "id": "kidvoice",
+    "name": "KidVoice",
+    "tagline": "AI kid voices with natural child speech",
     "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-29",
-    "category": "AI 营销",
-    "score": 82,
-    "pricing": "免费试用 + 订阅",
-    "pricingModel": "Freemium SaaS",
+    "sourceUrl": "https://whatlaunched.today/en/launch/kidvoice",
+    "website": "https://kid-voices-ai.com/",
+    "launchedAt": "2026-08-11",
+    "category": "音频 AI",
+    "score": 71,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：用量计费",
     "targetUsers": [
-      "增长团队",
-      "中小品牌",
-      "SEO 顾问"
+      "动画团队",
+      "教育内容",
+      "游戏工作室"
     ],
-    "positioning": "面向增长团队的 AI 搜索可见度与内容优化平台。",
-    "businessModel": "用低门槛免费审计获客，按监控规模和优化建议深度转付费订阅。",
+    "positioning": "面向内容制作的自然儿童语音生成工具。",
+    "businessModel": "推测按字符、音频时长或授权范围计费。",
     "competitors": [
-      "GEOscanAI",
-      "Semrush",
-      "Ahrefs"
+      "ElevenLabs",
+      "Murf",
+      "PlayHT"
     ],
     "opportunities": [
-      "把免费品牌审计做成可分享的获客飞轮",
-      "推出行业基准数据报告增强权威性",
-      "提供程序化内容更新与 CMS 插件"
+      "专注教育与动画的合规授权",
+      "建立多语言儿童声线",
+      "提供团队 API 与批处理"
     ],
     "risks": [
-      "赛道同质化速度快",
-      "价值证明依赖可持续的归因能力"
+      "儿童声音涉及更高伦理要求",
+      "授权边界和滥用治理复杂"
     ],
     "signals": [
-      "免费工具获客",
-      "内容工作流"
+      "垂直语音",
+      "内容本地化"
     ],
-    "confidence": 78
+    "confidence": 64,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "产品事实已核验；目标用户和商业模式为分析推断"
   },
   {
-    "id": "veezee",
-    "name": "Veezee",
-    "tagline": "让 AI Agent 读取 LinkedIn、Reddit 与 X",
+    "id": "mifoto",
+    "name": "MiFoto",
+    "tagline": "Edit, enhance, restore, and create photos online with AI",
     "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-29",
-    "category": "开发工具",
-    "score": 88,
-    "pricing": "按 API 用量计费",
-    "pricingModel": "Usage-based API",
-    "targetUsers": [
-      "AI 开发者",
-      "数据团队",
-      "销售情报"
-    ],
-    "positioning": "为 AI Agent 提供跨社交平台的统一实时数据读取层。",
-    "businessModel": "按请求量、数据新鲜度和并发能力计费，企业版提供 SLA 与合规支持。",
-    "competitors": [
-      "Exa",
-      "Firecrawl",
-      "Apify"
-    ],
-    "opportunities": [
-      "推出主流 Agent 框架原生 SDK",
-      "围绕销售、舆情与投研建立模板",
-      "以数据合规和稳定性切入企业客户"
-    ],
-    "risks": [
-      "第三方平台接口政策变化",
-      "数据授权与隐私合规成本较高"
-    ],
-    "signals": [
-      "Agent 数据基础设施",
-      "用量增长"
-    ],
-    "confidence": 86
-  },
-  {
-    "id": "prompt2prod",
-    "name": "Prompt2Prod",
-    "tagline": "把 AI 生成与 Vibe Coding 项目变成可上线产品",
-    "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-29",
-    "category": "开发工具",
-    "score": 90,
-    "pricing": "项目制 + 月度维护",
-    "pricingModel": "服务型 SaaS",
-    "targetUsers": [
-      "独立开发者",
-      "非技术创始人",
-      "创新团队"
-    ],
-    "positioning": "连接快速原型与生产级交付，为 Vibe Coding 项目补齐安全、架构和运维。",
-    "businessModel": "按项目复杂度收取交付费，并用托管、监控和持续迭代订阅获得经常性收入。",
-    "competitors": [
-      "Replit Agent",
-      "Lovable",
-      "传统开发外包"
-    ],
-    "opportunities": [
-      "建立自动化生产就绪评分作为获客入口",
-      "沉淀常见修复模块提升服务毛利",
-      "与 Vibe Coding 平台建立官方交付伙伴关系"
-    ],
-    "risks": [
-      "服务交付难以快速规模化",
-      "上游工具持续增强会压缩需求"
-    ],
-    "signals": [
-      "Vibe Coding 爆发",
-      "高意向用户"
-    ],
-    "confidence": 88
-  },
-  {
-    "id": "novakit",
-    "name": "NovaKit",
-    "tagline": "写作前先研究实时趋势的 Claude Skills",
-    "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-27",
-    "category": "内容创作",
-    "score": 79,
-    "pricing": "一次性购买 + 更新包",
-    "pricingModel": "数字产品",
-    "targetUsers": [
-      "内容创作者",
-      "独立创业者",
-      "营销人员"
-    ],
-    "positioning": "面向 Claude 用户的研究型内容技能包，把趋势发现嵌入写作工作流。",
-    "businessModel": "通过技能包一次性销售快速变现，并用模板更新、会员社区与定制服务增加复购。",
-    "competitors": [
-      "Claude Skills 市场",
-      "PromptBase",
-      "Jasper"
-    ],
-    "opportunities": [
-      "按垂直行业拆分高价值技能包",
-      "建立用户创作案例库和联盟分销",
-      "从模板升级为可持续更新的数据服务"
-    ],
-    "risks": [
-      "模板复制门槛低",
-      "依赖单一模型生态"
-    ],
-    "signals": [
-      "Skills 生态",
-      "创作者经济"
-    ],
-    "confidence": 75
-  },
-  {
-    "id": "ugc-agent",
-    "name": "UGC Agent",
-    "tagline": "自动寻找 Instagram 与 TikTok UGC 创作者",
-    "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-27",
-    "category": "AI Agent",
-    "score": 87,
-    "pricing": "每月订阅 + 名单额度",
-    "pricingModel": "垂直 Agent SaaS",
-    "targetUsers": [
-      "DTC 品牌",
-      "电商营销",
-      "广告代理商"
-    ],
-    "positioning": "为消费品牌自动完成 UGC 创作者发现与初筛的垂直 AI Agent。",
-    "businessModel": "按品牌席位、搜索次数与导出联系人额度分层收费，高阶版扩展到触达和活动管理。",
-    "competitors": [
-      "Modash",
-      "GRIN",
-      "SARAL"
-    ],
-    "opportunities": [
-      "延伸至自动外联、报价谈判与效果归因",
-      "聚焦单一消费品类建立匹配数据壁垒",
-      "与 Shopify 和营销 CRM 集成"
-    ],
-    "risks": [
-      "平台反爬与联系人数据合规",
-      "匹配质量需要持续人工反馈"
-    ],
-    "signals": [
-      "垂直 Agent",
-      "电商预算明确"
-    ],
-    "confidence": 87
-  },
-  {
-    "id": "odysseus-ai",
-    "name": "Odysseus AI",
-    "tagline": "面向深度研究与 Agent 的私有 AI 工作区",
-    "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-27",
-    "category": "知识管理",
-    "score": 83,
-    "pricing": "个人版 + 团队席位",
-    "pricingModel": "Seat-based SaaS",
-    "targetUsers": [
-      "研究员",
-      "咨询团队",
-      "知识工作者"
-    ],
-    "positioning": "强调隐私与长周期研究的 AI 工作空间，组织资料、推理过程与 Agent 任务。",
-    "businessModel": "按席位与存储容量订阅，企业版以私有部署、权限治理和审计能力溢价。",
-    "competitors": [
-      "NotebookLM",
-      "Glean",
-      "Notion AI"
-    ],
-    "opportunities": [
-      "以敏感行业的私有部署切入企业市场",
-      "提供研究方法模板和专家工作流",
-      "构建引用与证据审计能力形成差异化"
-    ],
-    "risks": [
-      "通用知识平台竞争强",
-      "企业销售周期较长"
-    ],
-    "signals": [
-      "隐私溢价",
-      "团队协作"
-    ],
-    "confidence": 82
-  },
-  {
-    "id": "remindshot",
-    "name": "RemindShot",
-    "tagline": "把截图自动变成可执行提醒",
-    "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-26",
-    "category": "效率工具",
+    "sourceUrl": "https://whatlaunched.today/en/launch/mifoto",
+    "website": "https://mifoto.ai/",
+    "launchedAt": "2026-08-11",
+    "category": "图像 AI",
     "score": 74,
-    "pricing": "免费 + Pro 订阅",
-    "pricingModel": "消费级 Freemium",
+    "pricing": "来源未披露",
+    "pricingModel": "分析：消费级 Freemium",
     "targetUsers": [
-      "移动用户",
-      "学生",
-      "轻度效率用户"
+      "普通消费者",
+      "社媒创作者",
+      "小商家"
     ],
-    "positioning": "用 AI 识别截图意图，自动提取时间、地点和任务，减少截图沉没。",
-    "businessModel": "免费额度促进习惯形成，Pro 版提供无限识别、跨设备同步和日历集成。",
+    "positioning": "集合图片编辑、增强、修复与生成的在线 AI 图像工具。",
+    "businessModel": "推测以免费额度吸引用户，并通过高清导出或生成额度变现。",
     "competitors": [
-      "Apple Reminders",
-      "Google Keep",
-      "Rewind"
+      "Canva",
+      "Adobe Express",
+      "Remini"
     ],
     "opportunities": [
-      "做深 iOS 分享面板与系统级入口",
-      "与日历、票务和购物应用联动",
-      "用本地模型强化隐私卖点"
+      "围绕老照片修复建立高意图入口",
+      "推出移动端分享闭环",
+      "按具体任务做 SEO 工具矩阵"
     ],
     "risks": [
-      "系统原生功能可能快速覆盖",
-      "消费级订阅付费意愿有限"
+      "图像工具市场拥挤",
+      "消费用户留存与付费率有限"
     ],
     "signals": [
-      "高频轻任务",
-      "移动端入口"
+      "工具集合",
+      "搜索流量"
     ],
-    "confidence": 73
+    "confidence": 69,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "产品事实来自原始发布卡片；定价未核验"
   },
   {
-    "id": "skribt",
-    "name": "Skribt",
-    "tagline": "专注搜索排名的 AI 博客协作者",
+    "id": "revamp",
+    "name": "Revamp",
+    "tagline": "Website redesign with AI in minutes — All-in-one platform",
     "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-26",
-    "category": "内容创作",
-    "score": 76,
-    "pricing": "按月订阅",
-    "pricingModel": "Prosumer SaaS",
+    "sourceUrl": "https://whatlaunched.today/en/launch/revamp",
+    "website": "https://revamp.dev/",
+    "launchedAt": "2026-08-11",
+    "category": "开发工具",
+    "score": 81,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：项目订阅 SaaS",
     "targetUsers": [
-      "博客作者",
-      "内容团队",
-      "小型企业"
+      "小企业",
+      "设计机构",
+      "独立开发者"
     ],
-    "positioning": "把关键词研究、结构规划和 SEO 写作聚合在同一协作流程中。",
-    "businessModel": "按内容额度和团队席位收费，通过内容刷新与排名监控升级 ARPU。",
+    "positioning": "使用 AI 快速完成网站改版的一体化平台。",
+    "businessModel": "推测按项目数、发布功能或团队席位收费。",
+    "competitors": [
+      "Framer AI",
+      "Lovable",
+      "Wix AI"
+    ],
+    "opportunities": [
+      "用改版前后效果证明价值",
+      "提供 CMS 与现有站点迁移",
+      "面向机构增加多客户管理"
+    ],
+    "risks": [
+      "AI 建站赛道竞争激烈",
+      "生产级可控性影响留存"
+    ],
+    "signals": [
+      "AI 建站",
+      "存量网站改版"
+    ],
+    "confidence": 72,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "来源支持产品能力描述；商业策略为分析"
+  },
+  {
+    "id": "realword-ai",
+    "name": "Realword AI",
+    "tagline": "Research, write, humanize and score SEO articles in one pass",
+    "source": "WhatLaunched",
+    "sourceUrl": "https://whatlaunched.today/en/launch/realword-ai",
+    "website": "https://realword.ai/",
+    "launchedAt": "2026-08-11",
+    "category": "内容创作",
+    "score": 77,
+    "pricing": "来源未披露",
+    "pricingModel": "分析：内容 SaaS",
+    "targetUsers": [
+      "SEO 内容团队",
+      "独立站",
+      "营销机构"
+    ],
+    "positioning": "将研究、写作、人性化处理和 SEO 评分合并为单次工作流。",
+    "businessModel": "推测按文章额度或团队席位订阅收费。",
     "competitors": [
       "Surfer SEO",
-      "Frase",
-      "Jasper"
+      "Jasper",
+      "Frase"
     ],
     "opportunities": [
-      "聚焦内容更新而非纯生成以降低同质化",
-      "用真实排名结果建立案例与口碑",
-      "推出 WordPress 一键发布闭环"
+      "以内容更新而非纯生成降低同质化",
+      "展示真实排名和流量案例",
+      "接入 WordPress 等 CMS"
     ],
     "risks": [
-      "AI 写作工具高度拥挤",
-      "搜索算法变化影响价值主张"
+      "AI 内容质量与搜索政策不确定",
+      "成熟 SEO 套件可快速跟进"
     ],
     "signals": [
-      "存量内容更新",
-      "SEO 刚需"
+      "工作流整合",
+      "SEO ROI"
     ],
-    "confidence": 76
-  },
-  {
-    "id": "graphloom",
-    "name": "Graphloom",
-    "tagline": "为 Etsy 卖家打造的 AI 工具箱",
-    "source": "WhatLaunched",
-    "sourceUrl": "https://whatlaunched.today/en/tags/ai",
-    "website": "",
-    "launchedAt": "2026-07-25",
-    "category": "垂直 SaaS",
-    "score": 85,
-    "pricing": "店铺订阅",
-    "pricingModel": "垂直 SaaS",
-    "targetUsers": [
-      "Etsy 卖家",
-      "手作品牌",
-      "跨境电商"
-    ],
-    "positioning": "围绕 Etsy 商品研究、标题优化与运营决策的一体化 AI 工具。",
-    "businessModel": "按店铺数和商品量分层订阅，以销量提升作为付费价值锚点。",
-    "competitors": [
-      "eRank",
-      "Marmalead",
-      "EverBee"
-    ],
-    "opportunities": [
-      "用商品表现数据训练垂直建议引擎",
-      "从 Etsy 扩展到其他创作者电商平台",
-      "推出季节趋势与选品预警"
-    ],
-    "risks": [
-      "平台依赖度高",
-      "历史数据获取受 API 限制"
-    ],
-    "signals": [
-      "垂直数据壁垒",
-      "明确 ROI"
-    ],
-    "confidence": 83
+    "confidence": 72,
+    "verifiedAt": "2026-08-12",
+    "factStatus": "已核验",
+    "analysisNote": "事实字段来自发布页；竞品、机会与收费方式为分析"
   }
 ]

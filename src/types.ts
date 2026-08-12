@@ -18,4 +18,7 @@ export type Product = {
   risks: string[];
   signals: string[];
   confidence: number;
+  verifiedAt: string;
+  factStatus: "已核验" | "待复核";
+  analysisNote: string;
 };
