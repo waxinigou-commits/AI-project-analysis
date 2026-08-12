@@ -1,0 +1,28 @@
+name: Daily product intelligence
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Collect and analyze launches
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODEL: openai/gpt-4.1-mini
+        run: python3 scripts/collect.py
+      - name: Persist new intelligence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/products.json data/products.db
+          git diff --cached --quiet || git commit -m "data: refresh AI product intelligence"
+          git push

@@ -1,0 +1,21 @@
+export type Product = {
+  id: string;
+  name: string;
+  tagline: string;
+  source: "Product Hunt" | "WhatLaunched";
+  sourceUrl: string;
+  website: string;
+  launchedAt: string;
+  category: string;
+  score: number;
+  pricing: string;
+  pricingModel: string;
+  targetUsers: string[];
+  positioning: string;
+  businessModel: string;
+  competitors: string[];
+  opportunities: string[];
+  risks: string[];
+  signals: string[];
+  confidence: number;
+};
